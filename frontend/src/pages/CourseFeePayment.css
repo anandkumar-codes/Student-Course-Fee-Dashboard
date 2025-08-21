@@ -1,0 +1,67 @@
+/* CourseFeePayment.css */
+
+.fee-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.2);
+  font-family: sans-serif;
+}
+
+.fee-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-group input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.form-group button {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.details-box {
+  margin-top: 30px;
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.details-box p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.submit-btn {
+  margin-top: 20px;
+  padding: 12px 25px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #218838;
+}
